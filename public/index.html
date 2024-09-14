@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Real-Time AI Hand Pose Estimation App" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>AI Hand Pose Estimation</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    
+    <style>
+      /* Setting up the background gradient */
+      body {
+        margin: 0;
+        font-family: "Arial", sans-serif;
+        background: linear-gradient(135deg, #4d0000, #330066, #ff9933);
+        color: white;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+      }
+
+      /* Style for the header */
+      header {
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+      }
+
+      /* Content section */
+      .content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      /* Footer styling */
+      footer {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 15px;
+        text-align: center;
+        font-size: 1rem;
+      }
+
+      .btn-custom {
+        background-color: #ff9933;
+        color: #330066;
+        border: none;
+        font-size: 1.2rem;
+      }
+
+      .btn-custom:hover {
+        background-color: #e68a00;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Real-Time AI Hand Pose Estimation</h1>
+        <p>Harness the power of TensorFlow to detect and visualize hand poses in real-time.</p>
+      </div>
+    </header>
+
+    <div class="content">
+      <a href="#" class="btn btn-custom btn-lg">Start Detection</a>
+    </div>
+
+    <div id="root">
+      <!-- The React app will inject content here -->
+    </div>
+
+
+    <footer>
+      <div class="container">
+        Developed by Nithilan
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
