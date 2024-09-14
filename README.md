@@ -1,4 +1,4 @@
-# Real-Time AI Hand Pose Estimation
+# Real-Time AI Hand Pose Estimation using Computer Vision
 
 Harness the power of **TensorFlow.js**, **React.js**, and **JavaScript** to detect and visualize hand poses in real-time using your webcam. This project implements a **hand pose estimation model** using TensorFlow's handpose library and allows you to interact with the model in a web browser.
 
@@ -16,7 +16,7 @@ Harness the power of **TensorFlow.js**, **React.js**, and **JavaScript** to dete
 
 ## Demo
 
-**Live Demo**: [Click here to view the live demo]()
+**Live Demo**: [Click here to view the live demo](https://drive.google.com/file/d/1KugCW3PDSONeXlcnWqcmf0Dx4i9trlzn/view?usp=sharing)
 
 - The app detects hand movements and visualizes key points in real-time.
 - Once you open the app, you can click "Start Detection" to begin capturing hand pose from your webcam.
