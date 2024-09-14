@@ -129,7 +129,6 @@ Real-Time-AI-Hand-Pose-Estimation/
 ## Acknowledgements
 
 - TensorFlow.js Hand Pose Estimation Model: [TensorFlow Handpose Model](https://github.com/tensorflow/tfjs-models/tree/master/handpose).
-- This project was inspired by the hand pose estimation tutorial by **Nicholas Renotte** and other AI-driven computer vision applications.
 
 ## License
 
